@@ -47,5 +47,5 @@ class Vector:
                     self.vector[1] * second.vector[0]
                 ]
             else:
-                return "Vectors must be three-dimensional"
+                return "Vector must be 3-dimensional"
         return tuple(product)
